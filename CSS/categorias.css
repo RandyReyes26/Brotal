@@ -1,0 +1,117 @@
+/* ===== CATEGORÍAS ===== */
+ 
+.categorias{
+ 
+    padding:70px 8%;
+ 
+    text-align:center;
+ 
+}
+ 
+.categorias h2{
+ 
+    font-size:2.2rem;
+ 
+    color:var(--VerdePrincipal);
+ 
+    margin-bottom:45px;
+ 
+}
+ 
+.categorias-grid{
+ 
+    display:flex;
+ 
+    justify-content:center;
+ 
+    flex-wrap:wrap;
+ 
+    gap:40px;
+ 
+}
+ 
+.categoria-item{
+ 
+    display:flex;
+ 
+    flex-direction:column;
+ 
+    align-items:center;
+ 
+    gap:12px;
+ 
+    text-decoration:none;
+ 
+    color:var(--TextoPrincipal);
+ 
+    width:110px;
+ 
+    transition:.3s;
+ 
+}
+ 
+.categoria-circulo{
+ 
+    width:88px;
+ 
+    height:88px;
+ 
+    border-radius:50%;
+ 
+    background:var(--FondoSecciones);
+ 
+    display:flex;
+ 
+    align-items:center;
+ 
+    justify-content:center;
+ 
+    font-size:2rem;
+ 
+    transition:.3s;
+ 
+}
+ 
+.categoria-item:hover .categoria-circulo{
+ 
+    background:var(--VerdePrincipal);
+ 
+    transform:translateY(-6px);
+ 
+}
+ 
+.categoria-item span{
+ 
+    font-weight:500;
+ 
+    font-size:.92rem;
+ 
+}
+ 
+/* ========================= */
+ 
+@media(max-width:600px){
+ 
+.categorias-grid{
+ 
+    gap:22px;
+ 
+}
+ 
+.categoria-item{
+ 
+    width:80px;
+ 
+}
+ 
+.categoria-circulo{
+ 
+    width:66px;
+ 
+    height:66px;
+ 
+    font-size:1.5rem;
+ 
+}
+ 
+}

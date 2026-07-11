@@ -1,0 +1,133 @@
+/* ===== BANNER SECUNDARIO ===== */
+ 
+.banner-secundario{
+ 
+    margin:0 8% 70px;
+ 
+    background:linear-gradient(120deg, var(--VerdePrincipal) 0%, #3d5c40 100%);
+ 
+    border-radius:20px;
+ 
+    overflow:hidden;
+ 
+    display:flex;
+ 
+    align-items:center;
+ 
+    justify-content:space-between;
+ 
+    padding:50px 60px;
+ 
+    gap:40px;
+ 
+    position:relative;
+ 
+}
+ 
+.banner-secundario-text{
+ 
+    color:white;
+ 
+    flex:1;
+ 
+}
+ 
+.banner-secundario-text h2{
+ 
+    font-size:2rem;
+ 
+    margin-bottom:16px;
+ 
+}
+ 
+.banner-secundario-text p{
+ 
+    font-size:1rem;
+ 
+    opacity:.9;
+ 
+    margin-bottom:26px;
+ 
+    max-width:420px;
+ 
+}
+ 
+.banner-secundario-text a{
+ 
+    display:inline-block;
+ 
+    background:var(--Terracota);
+ 
+    color:white;
+ 
+    text-decoration:none;
+ 
+    padding:14px 34px;
+ 
+    border-radius:8px;
+ 
+    font-weight:600;
+ 
+    transition:.3s;
+ 
+}
+ 
+.banner-secundario-text a:hover{
+ 
+    background:#b5693c;
+ 
+}
+ 
+.banner-secundario-img{
+ 
+    flex:1;
+ 
+    display:flex;
+ 
+    justify-content:flex-end;
+ 
+}
+ 
+.banner-secundario-img img{
+ 
+    max-width:100%;
+ 
+    max-height:260px;
+ 
+    border-radius:14px;
+ 
+    object-fit:cover;
+ 
+}
+ 
+/* ========================= */
+ 
+@media(max-width:900px){
+ 
+.banner-secundario{
+ 
+    flex-direction:column;
+ 
+    text-align:center;
+ 
+    padding:40px 30px;
+ 
+    margin:0 6% 50px;
+ 
+}
+ 
+.banner-secundario-text p{
+ 
+    margin-left:auto;
+ 
+    margin-right:auto;
+ 
+}
+ 
+.banner-secundario-img{
+ 
+    justify-content:center;
+ 
+}
+ 
+}

@@ -1,0 +1,190 @@
+/* ============================
+   PALETA DE COLORES
+============================ */
+
+:root {
+
+    --FondoPrincipal: #FAFAF7;
+    --FondoSecciones: #F1EEE4;
+    --VerdePrincipal: #4A6D4E;
+    --VerdeSalvia: #8A9A6E;
+    --Terracota: #C97B4A;
+    --TextoPrincipal: #2E2A24;
+
+}
+
+/* ========================= */
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+    background:var(--FondoPrincipal);
+    color:var(--TextoPrincipal);
+
+}
+
+h1,h2,h3{
+
+    font-family:'Lora',serif;
+
+}
+
+/* ========================= */
+
+.hero{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:80px 8%;
+
+    gap:60px;
+
+}
+
+.hero-text{
+
+    flex:1;
+
+}
+
+.hero-text h1{
+
+    font-size:4rem;
+
+    margin-bottom:25px;
+
+    color:var(--VerdePrincipal);
+
+}
+
+.hero-text p{
+
+    font-size:1.1rem;
+
+    line-height:1.8;
+
+    margin-bottom:35px;
+
+}
+
+.hero button{
+
+    padding:15px 40px;
+
+    border:none;
+
+    background:var(--Terracota);
+
+    color:white;
+
+    font-size:1rem;
+
+    cursor:pointer;
+
+    border-radius:8px;
+
+    transition:.3s;
+
+}
+
+.hero button:hover{
+
+    background:var(--VerdePrincipal);
+
+}
+
+.hero-image{
+
+    flex:1;
+
+}
+
+.hero-image img{
+
+    width:100%;
+
+    border-radius:20px;
+
+}
+
+/* ========================= */
+
+.featured{
+
+    padding:80px 8%;
+
+    background:var(--FondoSecciones);
+
+}
+
+.featured h2{
+
+    text-align:center;
+
+    margin-bottom:50px;
+
+    font-size:2.5rem;
+
+    color:var(--VerdePrincipal);
+
+}
+
+/* ========================= */
+
+.about{
+
+    padding:90px 15%;
+
+    text-align:center;
+
+}
+
+.about h2{
+
+    color:var(--VerdePrincipal);
+
+    margin-bottom:25px;
+
+    font-size:2.5rem;
+
+}
+
+.about p{
+
+    font-size:1.1rem;
+
+    line-height:2;
+
+}
+
+/* ========================= */
+
+@media(max-width:900px){
+
+.hero{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+.hero h1{
+
+    font-size:3rem;
+
+}
+
+}

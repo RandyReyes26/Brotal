@@ -1,0 +1,269 @@
+/* ===== FOOTER ===== */
+
+.site-footer{
+
+    background:linear-gradient(135deg, var(--VerdePrincipal) 0%, #3a5a3e 100%);
+
+    color:white;
+
+    font-family:'Poppins',sans-serif;
+
+    padding:60px 8% 30px;
+
+}
+
+.footer-content{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    flex-wrap:wrap;
+
+    gap:40px;
+
+    padding-bottom:40px;
+
+}
+
+.footer-col h3{
+
+    font-family:'Lora',serif;
+
+    color:var(--Terracota);
+
+    font-size:1.3rem;
+
+    margin-bottom:18px;
+
+}
+
+/* HORARIO */
+
+.schedule-block{
+
+    margin-bottom:16px;
+
+}
+
+.schedule-block .days{
+
+    font-weight:600;
+
+    margin-bottom:4px;
+
+}
+
+.schedule-block .hours{
+
+    font-weight:300;
+
+    opacity:.9;
+
+}
+
+.footer-col .schedule-block:first-of-type{
+
+    padding-bottom:14px;
+
+    border-bottom:1px solid rgba(255,255,255,.25);
+
+}
+
+/* INFORMACIÓN */
+
+.footer-links{
+
+    list-style:none;
+
+}
+
+.footer-links li{
+
+    margin-bottom:12px;
+
+}
+
+.footer-links a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+.footer-links a:hover{
+
+    color:var(--Terracota);
+
+}
+
+/* SÍGUENOS */
+
+.social-icons{
+
+    display:flex;
+
+    gap:14px;
+
+}
+
+.social-icon{
+
+    width:42px;
+
+    height:42px;
+
+    background:white;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    color:var(--VerdePrincipal);
+
+    transition:.3s;
+
+}
+
+.social-icon svg{
+
+    width:20px;
+
+    height:20px;
+
+}
+
+.social-icon:hover{
+
+    background:var(--Terracota);
+
+    color:white;
+
+    transform:translateY(-3px);
+
+}
+
+/* MÉTODOS DE PAGO */
+
+.payment-section{
+
+    padding-top:20px;
+
+    border-top:1px solid rgba(255,255,255,.2);
+
+}
+
+.payment-section h3{
+
+    font-family:'Lora',serif;
+
+    color:var(--Terracota);
+
+    font-size:1.3rem;
+
+    margin-bottom:18px;
+
+    text-align:center;
+
+}
+
+.payment-icons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:14px;
+
+    flex-wrap:wrap;
+
+}
+
+.payment-badge{
+
+    background:white;
+
+    border-radius:6px;
+
+    padding:8px 14px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:4px;
+
+    min-width:56px;
+
+    height:30px;
+
+    box-shadow:0 2px 6px rgba(0,0,0,.15);
+
+}
+
+.payment-badge svg{
+
+    height:16px;
+
+    width:auto;
+
+}
+
+.payment-badge span{
+
+    font-weight:600;
+
+    font-size:.75rem;
+
+    color:#000;
+
+}
+
+/* FOOTER BOTTOM */
+
+.footer-bottom{
+
+    text-align:center;
+
+    margin-top:30px;
+
+}
+
+.footer-bottom p{
+
+    font-size:.85rem;
+
+    opacity:.85;
+
+    font-weight:300;
+
+}
+
+/* ========================= */
+
+@media(max-width:768px){
+
+.footer-content{
+
+    flex-direction:column;
+
+    gap:30px;
+
+}
+
+.social-icons{
+
+    justify-content:flex-start;
+
+}
+
+}
