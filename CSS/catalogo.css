@@ -1,0 +1,264 @@
+/* ===== CATÁLOGO - HERO ===== */
+
+.catalogo-hero{
+
+    padding:60px 8% 40px;
+
+    text-align:center;
+
+    background:var(--FondoSecciones);
+
+}
+
+.catalogo-hero h1{
+
+    font-size:2.6rem;
+
+    color:var(--VerdePrincipal);
+
+    margin-bottom:12px;
+
+}
+
+.catalogo-hero p{
+
+    font-size:1rem;
+
+    max-width:520px;
+
+    margin:0 auto;
+
+}
+
+/* ===== FILTROS ===== */
+
+.filtros{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:14px;
+
+    flex-wrap:wrap;
+
+    padding:36px 8%;
+
+}
+
+.filtro-btn{
+
+    background:white;
+
+    border:2px solid var(--FondoSecciones);
+
+    color:var(--TextoPrincipal);
+
+    padding:10px 24px;
+
+    border-radius:24px;
+
+    font-family:'Poppins',sans-serif;
+
+    font-weight:500;
+
+    font-size:.9rem;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.filtro-btn:hover{
+
+    border-color:var(--VerdeSalvia);
+
+}
+
+.filtro-btn.activo{
+
+    background:var(--VerdePrincipal);
+
+    border-color:var(--VerdePrincipal);
+
+    color:white;
+
+}
+
+/* ===== GRID DE PRODUCTOS ===== */
+
+.catalogo-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4, 1fr);
+
+    gap:26px;
+
+    padding:0 8% 80px;
+
+}
+
+.producto-card{
+
+    background:white;
+
+    border-radius:16px;
+
+    overflow:hidden;
+
+    box-shadow:0 3px 12px rgba(0,0,0,.05);
+
+    transition:.3s;
+
+    opacity:0;
+
+    animation:apareceCard .5s ease forwards;
+
+}
+
+@keyframes apareceCard{
+
+    from{ opacity:0; transform:translateY(14px); }
+    to{ opacity:1; transform:translateY(0); }
+
+}
+
+.producto-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 16px 28px rgba(0,0,0,.1);
+
+}
+
+.producto-card img{
+
+    width:100%;
+
+    height:190px;
+
+    object-fit:cover;
+
+}
+
+.producto-card .info{
+
+    padding:16px 18px 20px;
+
+}
+
+.producto-card h3{
+
+    font-size:1.05rem;
+
+    margin-bottom:6px;
+
+}
+
+.producto-card .descripcion{
+
+    font-size:.82rem;
+
+    color:#6b6555;
+
+    line-height:1.5;
+
+    margin-bottom:12px;
+
+    min-height:38px;
+
+}
+
+.producto-card .precio{
+
+    color:var(--Terracota);
+
+    font-weight:700;
+
+    font-size:1.1rem;
+
+    margin-bottom:14px;
+
+}
+
+.producto-card button{
+
+    width:100%;
+
+    padding:11px;
+
+    border:none;
+
+    background:var(--VerdePrincipal);
+
+    color:white;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+    font-size:.88rem;
+
+    transition:.3s;
+
+}
+
+.producto-card button:hover{
+
+    background:var(--Terracota);
+
+}
+
+/* Estado vacío / sin resultados */
+
+.catalogo-vacio{
+
+    grid-column:1/-1;
+
+    text-align:center;
+
+    padding:60px 20px;
+
+    color:#8a8472;
+
+    font-size:1rem;
+
+}
+
+/* ========================= */
+
+@media(max-width:1100px){
+
+.catalogo-grid{
+
+    grid-template-columns:repeat(3, 1fr);
+
+}
+
+}
+
+@media(max-width:750px){
+
+.catalogo-grid{
+
+    grid-template-columns:repeat(2, 1fr);
+
+    gap:16px;
+
+}
+
+}
+
+@media(max-width:480px){
+
+.catalogo-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+}

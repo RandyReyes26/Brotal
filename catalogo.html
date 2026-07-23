@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brotal | Plantas</title>
+
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/navbar.css">
+    <link rel="stylesheet" href="/CSS/catalogo.css">
+    <link rel="stylesheet" href="/CSS/footer.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="navbar-container"></div>
+
+    <!-- HERO -->
+    <section class="catalogo-hero">
+        <h1>Nuestras Plantas</h1>
+        <p>Encuentra la compañera verde perfecta para tu hogar o jardín.</p>
+    </section>
+
+    <!-- FILTROS -->
+    <div class="filtros" id="categorias">
+        <button class="filtro-btn activo" data-categoria="todas">Todas</button>
+        <button class="filtro-btn" data-categoria="interior">Interior</button>
+        <button class="filtro-btn" data-categoria="exterior">Exterior</button>
+        <button class="filtro-btn" data-categoria="suculentas">Suculentas</button>
+    </div>
+
+    <!-- GRID DE PRODUCTOS (se llena con JavaScript) -->
+    <div class="catalogo-grid">
+        <p class="catalogo-vacio">Cargando plantas...</p>
+    </div>
+
+    <div id="footer-container"></div>
+
+    <script src="/JS/navbar-loader.js"></script>
+    <script src="/JS/catalogo.js"></script>
+    <script src="/JS/footer-loader.js"></script>
+
+</body>
+</html>

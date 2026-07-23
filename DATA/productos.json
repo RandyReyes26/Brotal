@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "nombre": "Monstera Deliciosa",
+    "categoria": "interior",
+    "precio": 14500,
+    "imagen": "https://images.unsplash.com/photo-1463320726281-696a485928c7?w=600",
+    "descripcion": "Hojas grandes y perforadas, ideal para dar un toque tropical a cualquier espacio."
+  },
+  {
+    "id": 2,
+    "nombre": "Snake Plant",
+    "categoria": "interior",
+    "precio": 9900,
+    "imagen": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=600",
+    "descripcion": "Prácticamente indestructible. Perfecta para quienes están empezando."
+  },
+  {
+    "id": 3,
+    "nombre": "Peace Lily",
+    "categoria": "interior",
+    "precio": 11200,
+    "imagen": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=600",
+    "descripcion": "Flores blancas elegantes y purifica el aire de tu hogar."
+  },
+  {
+    "id": 4,
+    "nombre": "Helecho Boston",
+    "categoria": "interior",
+    "precio": 8500,
+    "imagen": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?w=600",
+    "descripcion": "Follaje frondoso y ligero, ideal para colgar cerca de una ventana."
+  },
+  {
+    "id": 5,
+    "nombre": "Orquídea Phalaenopsis",
+    "categoria": "interior",
+    "precio": 16900,
+    "imagen": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=600",
+    "descripcion": "Elegancia pura. Florece durante meses con el cuidado adecuado."
+  },
+  {
+    "id": 6,
+    "nombre": "Cactus San Pedro",
+    "categoria": "suculentas",
+    "precio": 7500,
+    "imagen": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600",
+    "descripcion": "Bajo mantenimiento, ideal para espacios con mucha luz directa."
+  },
+  {
+    "id": 7,
+    "nombre": "Echeveria",
+    "categoria": "suculentas",
+    "precio": 5200,
+    "imagen": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?w=600",
+    "descripcion": "Roseta compacta en tonos verde-azulados, perfecta para escritorios."
+  },
+  {
+    "id": 8,
+    "nombre": "Ficus Lyrata",
+    "categoria": "interior",
+    "precio": 22900,
+    "imagen": "https://images.unsplash.com/photo-1597055181300-e3633a4b6d4a?w=600",
+    "descripcion": "Hojas grandes en forma de violín. Una pieza statement para tu sala."
+  },
+  {
+    "id": 9,
+    "nombre": "Lavanda",
+    "categoria": "exterior",
+    "precio": 6800,
+    "imagen": "https://images.unsplash.com/photo-1499002238440-d264edd596ec?w=600",
+    "descripcion": "Aromática y resistente, atrae polinizadores a tu jardín."
+  },
+  {
+    "id": 10,
+    "nombre": "Bonsái Ficus",
+    "categoria": "exterior",
+    "precio": 28500,
+    "imagen": "https://images.unsplash.com/photo-1591958911259-bee2173bdccc?w=600",
+    "descripcion": "Arte vivo en miniatura, requiere poda regular y mucha paciencia."
+  },
+  {
+    "id": 11,
+    "nombre": "Rosal Trepador",
+    "categoria": "exterior",
+    "precio": 9500,
+    "imagen": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=600",
+    "descripcion": "Flores abundantes ideales para cercas, arcos y muros de jardín."
+  },
+  {
+    "id": 12,
+    "nombre": "Suculenta Mix (set x5)",
+    "categoria": "suculentas",
+    "precio": 12500,
+    "imagen": "https://images.unsplash.com/photo-1459156212016-c812468e2115?w=600",
+    "descripcion": "Set variado de 5 suculentas pequeñas, perfecto para regalar."
+  }
+]

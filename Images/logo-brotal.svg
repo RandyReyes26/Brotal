@@ -1,0 +1,49 @@
+<svg viewBox="0 0 340 100" xmlns="http://www.w3.org/2000/svg">
+
+    <defs>
+        <style>
+            .brotal-word { font-family: 'Lora', Georgia, serif; font-weight: 600; }
+        </style>
+        <linearGradient id="leafDark" x1="0" y1="1" x2="0" y2="0">
+            <stop offset="0%" stop-color="#3d5c40"/>
+            <stop offset="100%" stop-color="#5c8360"/>
+        </linearGradient>
+        <linearGradient id="leafMid" x1="0" y1="1" x2="0" y2="0">
+            <stop offset="0%" stop-color="#4A6D4E"/>
+            <stop offset="100%" stop-color="#7d9a70"/>
+        </linearGradient>
+        <linearGradient id="leafLight" x1="0" y1="1" x2="0" y2="0">
+            <stop offset="0%" stop-color="#8A9A6E"/>
+            <stop offset="100%" stop-color="#aab98f"/>
+        </linearGradient>
+    </defs>
+
+    <!-- PLANTA en maceta -->
+    <g transform="translate(6,4)">
+
+        <!-- maceta -->
+        <path d="M14 78 L54 78 L49 92 Q34 97 19 92 Z" fill="#C97B4A"/>
+        <rect x="12" y="72" width="44" height="8" rx="2.5" fill="#b5693c"/>
+
+        <!-- tallos -->
+        <path d="M34 72 C34 60 30 52 24 44" stroke="#4A6D4E" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        <path d="M34 72 C34 58 34 48 34 36" stroke="#4A6D4E" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        <path d="M34 72 C34 60 39 50 46 42" stroke="#4A6D4E" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+        <!-- hoja izquierda -->
+        <path d="M24 44 C10 40 6 26 12 14 C26 18 32 30 24 44 Z" fill="url(#leafDark)"/>
+
+        <!-- hoja central, la más alta -->
+        <path d="M34 36 C34 20 40 8 34 0 C24 8 20 22 34 36 Z" fill="url(#leafMid)"/>
+
+        <!-- hoja derecha -->
+        <path d="M46 42 C60 36 62 22 56 10 C44 16 38 28 46 42 Z" fill="url(#leafLight)"/>
+
+    </g>
+
+    <!-- WORDMARK -->
+    <text x="98" y="66" class="brotal-word" font-size="48" letter-spacing="0.5">
+        <tspan fill="#2E2A24">Br</tspan><tspan fill="#C97B4A">o</tspan><tspan fill="#2E2A24">tal</tspan>
+    </text>
+
+</svg>
